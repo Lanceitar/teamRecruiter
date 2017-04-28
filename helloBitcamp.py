@@ -34,3 +34,6 @@ while teamNum > 0:
 
 message = yis
 print_message()
+
+if teamNum <= 0:
+    print("Lets hack!!!")
