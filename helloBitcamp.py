@@ -27,7 +27,7 @@ while teamNum > 0:
     person = input('Will you help and join? Y/N')
     answer = person.upper() # convert the users input to upper case
 
-    if answer == 'Y':
+    if answer == 'Y' or 'YES' == answer:
         teamNum -= 1
     else:
         print(message)
